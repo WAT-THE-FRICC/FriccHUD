@@ -98,6 +98,16 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"15"
+		{
+			"1"
+			{
+				"name"		"Montserrat-edited"
+				"tall"		"15"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		
 		//
 		// Blurred shadows

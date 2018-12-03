@@ -41,7 +41,7 @@
 		"fgcolor" "Ammo"
 		"xpos" "c93"
 		"xpos_minmode" "c73"
-		"ypos" "310"//423
+		"ypos" "cs-0.5+120"
 		"ypos_minmode" "380"
 		"zpos" "6"
 		"wide" "150"
@@ -83,10 +83,11 @@
 		"ControlName" "CExLabel"
 		"fieldName" "AmmoInReserve"
 		"font" "24"
+		"font_minmode" "20"
 		"fgcolor" "AmmoInReserve"
 		"xpos" "c142"
 		"xpos_minmode" "c109"
-		"ypos" "315"
+		"ypos" "cs-0.5+120"
 		"ypos_minmode" "382"
 		"zpos" "8"
 		"wide" "100"
@@ -101,6 +102,7 @@
 		"ControlName" "CExLabel"
 		"fieldName" "AmmoInReserveShadow"
 		"font" "Blur24"
+		"font_minmode" "BLur20"
 		"fgcolor" "Shadow"
 		//"xpos" "c143"
 		//"xpos_minmode" "c110"
@@ -129,7 +131,7 @@
 		"fgcolor" "Ammo"
 		"xpos" "c93"
 		"xpos_minmode" "c73"
-		"ypos" "310"//423
+		"ypos" "cs-0.5+120"//423
 		"ypos_minmode" "380"
 		"zpos" "6"
 		"wide" "100"

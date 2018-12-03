@@ -21,7 +21,7 @@
 		"fieldName" "PlayerStatusHealthValue"
 		"xpos" "c-293"
 		"xpos_minmode" "c-273"
-		"ypos" "310" //423
+		"ypos" "cs-0.5+120" //423
 		"ypos_minmode" "380"
 		"zpos" "6"
 		"wide" "200"
