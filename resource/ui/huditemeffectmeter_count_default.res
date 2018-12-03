@@ -1,0 +1,83 @@
+"Resource/UI/huditemeffectmeter_count.res"
+{
+	HudItemEffectMeter
+	{
+		"fieldName"		"HudItemEffectMeter"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"0"		//c176
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
+		"MeterFG"		"White"
+		"MeterBG"		"QHUDChargeMeterBG"
+	}
+	"ItemEffectMeterCount"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"ItemEffectMeterCount"
+		"xpos" "c-20"
+		"ypos" "350"//390
+		"ypos_minmode" "407"
+		"zpos" "2"
+		"wide" "40"
+		"tall" "24"
+		"autoResize" "1"
+		"pinCorner" "2"
+		"visible" "1"
+		"enabled" "1"
+		"tabPosition" "0"
+		"labelText" "%progresscount%"
+		"textAlignment" "north"
+		"dulltext" "0"
+		"brighttext" "0"
+		"font" "24"
+		"fgcolor" "HUDNumbers"
+	}
+	"ItemEffectMeterCountShadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"ItemEffectMeterCountShadow"
+		"xpos" "-1"
+		"ypos" "-1"//390
+		"zpos" "2"
+		"wide" "40"
+		"tall" "24"
+		"autoResize" "1"
+		"pinCorner" "2"
+		"visible" "1"
+		"enabled" "1"
+		"tabPosition" "0"
+		"labelText" "%progresscount%"
+		"textAlignment" "north"
+		"dulltext" "0"
+		"brighttext" "0"
+		"font" "Blur24"
+		"fgcolor" "Shadow"
+		
+		"pin_to_sibling" "ItemEffectMeterCount"
+		"pin_corner_to_sibling" "TOP_LEFT"
+		"pin_to_sibling_corner" "TOP_LEFT"
+	}
+	"ItemEffectMeterLabel"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterLabel"
+		"xpos"					"c20"
+		"ypos"					"350"
+		"ypos_minmode" 			"407"
+		"zpos"					"2"
+		"wide" "100"
+		"tall" "24"
+		"autoResize" "1"
+		"pinCorner" "2"
+		"visible" "1"
+		"enabled" "1"
+		"tabPosition" "0"
+		"labelText" "#TF_Ball"
+		"textAlignment" "west"
+		"dulltext" "0"
+		"brighttext" "0"
+		"font" "TFFontSmall"
+	}
+}

@@ -1,0 +1,1 @@
+#base "HudItemEffectMeter_top.res"
