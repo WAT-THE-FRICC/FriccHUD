@@ -33,25 +33,17 @@
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
+	CMainTargetID
+	{
+		"tall"	 	"28"
+		"tall_minmode"	 	"28"
+	}
 	CSecondaryTargetID
 	{
-		"fieldName" 	"CSecondaryTargetID"
-		"visible" 	"0"
-		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"365"
+		"ypos"		"375"
 		"ypos_minmode"		"335"
-		"wide"	 	"252"
-		"tall"	 	"35"
+		"tall"	 	"28"
 		"tall_minmode"	 	"28"
-		"priority"	"35"
-
-		if_vr
-		{
-			"ypos"		"330"
-			"x_offset"	"20"
-		}
-
 	}
 	
 	HudDeathNotice
